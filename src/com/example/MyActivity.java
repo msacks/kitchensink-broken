@@ -10,7 +10,7 @@ public class MyActivity extends DroidGap
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
-        super.loadUrl("file:///android_asset/www/device.html");
+        super.loadUrl("file:///android_asset/www/index.html");
         setContentView(R.layout.main);
     }
 }
